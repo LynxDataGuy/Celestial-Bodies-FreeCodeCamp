@@ -1,0 +1,16 @@
+INSERT INTO planet (star_id, planet_name, planet_type, age_in_million_years, habitable) VALUES
+(1, 'Earth', 'Terrestrial', 4600, TRUE),
+(2, 'Alpheratz b', 'Gas Giant', 200, FALSE),
+(3, 'B0830-00 b', 'Pulsar planet', 1000, FALSE),
+(4, 'M104-67 b', 'Gas Giant', 10000, FALSE),
+(5, 'M51-3 b', 'Rocky Exoplanet', 10000, TRUE),
+(6, 'M87 b', 'Giant Planet', 13000, FALSE),
+(7, 'Kepler-186f', 'Earth-sized exoplanet', 4400, TRUE),
+(8, 'Proxima Centauri b', 'Super-Earth', 4850, TRUE),
+(9, 'TRAPPIST-1e', 'Earth-sized exoplanet', 7600, TRUE),
+(10, 'LHS 1140 c', 'Super-Earth', 6000, TRUE),
+(1, 'Mercury', 'Terrestrial', 4600, false),
+(1, 'Venus', 'Terrestrial', 4600, false),
+(1, 'Mars', 'Terrestrial', 4500, false),
+(1, 'Jupiter', 'Gas Giant', 4600, false),
+(1, 'Saturn', 'Gas Giant', 4600, false);
